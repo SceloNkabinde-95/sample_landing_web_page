@@ -57,6 +57,8 @@ body {
 
 .main-header{
 	/* border: 2px solid orange; */
+	height: 15%;
+	flex-grow: 1;
 	display: flex;
 }
 
@@ -88,8 +90,8 @@ a {
 
 .summary-header {
 	border: 2px solid orange;
-	flex-grow: 1;
-	height: 100%; 
+	flex-grow: 4;
+	height: 85%; 
 
 
 	display: flex;
