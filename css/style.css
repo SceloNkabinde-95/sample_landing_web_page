@@ -84,16 +84,34 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 .left-content {
+	background-color: grey;
 	box-sizing: border-box;
-	padding-right: 20px;
+	width: 90%;
+	height: 90%;
 }
 
 .right-subheader {
 	border: 2px solid red;
 	width: 30%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.right-content {
+	box-sizing: border-box;
+	background-color: aqua;
+	width: 90%;
+	height: 90%;
 }
 
 /*----------------------------Header Ending-----------------------------*/
