@@ -80,6 +80,15 @@ ul {
 .left-subheader {
 	border: 2px solid red;
 	width: 30%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-content {
+	box-sizing: border-box;
+	padding-right: 20px;
 }
 
 .right-subheader {
