@@ -46,6 +46,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	/* background-color: #1F2937; */
+	flex-grow: 1;
  }
 
 .main-header{
@@ -72,6 +73,18 @@ ul {
 .summary-header {
 	border: 2px solid orange;
 	display: flex;
+	justify-content: space-evenly;
+	flex-grow: 1;
+}
+
+.left-subheader {
+	border: 2px solid red;
+	width: 30%;
+}
+
+.right-subheader {
+	border: 2px solid red;
+	width: 30%;
 }
 
 /*----------------------------Header Ending-----------------------------*/
@@ -86,7 +99,7 @@ ul {
 
 .content {
 	border: 2px solid yellow;
-	flex-grow: 1;
+	flex-grow: 3;
 
  }
 
