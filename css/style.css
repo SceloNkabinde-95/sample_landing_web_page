@@ -68,11 +68,16 @@ body {
 
 	display: flex;
 	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding-right: 5px;
 }
 
 .header-logo{
 	font-size: 24px;
 	color: #F9FAF8;
+	justify-content: center;
+	align-items: center;
 }
 
 ul {
