@@ -12,7 +12,7 @@
 
 /*--------------------------------Main Containers-----------------------------*/
 body {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	overflow: hidden;
 	height: 100vh;
 	margin: 0;
@@ -42,23 +42,23 @@ body {
 
 /*--------------------------------Header-----------------------------*/
 .header {
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 	display: flex;
 	flex-direction: column;
 	background-color: #1F2937;
 	flex-grow: 1;
 
 	box-sizing: border-box;
-	height: 25%;
+	/* height: 25%; */
  }
 
 .main-header{
-	border: 2px solid orange;
+	/* border: 2px solid orange; */
 	display: flex;
 }
 
 .header-links {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	margin-left: auto;
 
 	display: flex;
@@ -84,14 +84,14 @@ a {
 }
 
 .summary-header {
-	border: 2px solid orange;
+	/* border: 2px solid orange; */
 	display: flex;
 	justify-content: center;
 	flex-grow: 1;
 }
 
 .left-subheader {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	width: 30%;
 	
 	display: flex;
@@ -116,7 +116,7 @@ a {
 }
 
 .right-subheader {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	width: 30%;
 
 	display: flex;
@@ -144,11 +144,11 @@ a {
  /*--------------------------------Content-----------------------------*/
 
 .content {
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 	flex-grow: 3;
 
 	box-sizing: border-box;
-	height: 70%;
+	/* height: 70%; */
 
  }
 
@@ -162,9 +162,9 @@ a {
 /*--------------------------------Footer-----------------------------*/
 
 .footer {
- 	border: 2px solid yellow;
+ 	/* border: 2px solid yellow; */
 	box-sizing: border-box;
-	height: 5%;
+	/* height: 5%; */
  }
 
 /*--------------------------------Footer Ending------------------------*/
