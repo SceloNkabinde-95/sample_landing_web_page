@@ -21,3 +21,20 @@ body {
 	
  }
 
+.header {
+	border: 2px solid yellow;
+
+ }
+
+.content {
+	border: 2px solid yellow;
+	flex-grow: 1;
+
+ }
+
+.footer {
+ 	border: 2px solid yellow;
+
+ }
+
+
