@@ -48,6 +48,15 @@ body {
 
  }
 
+.main-header{
+	border: 2px solid orange;
+	
+}
+
+.summary-header {
+	border: 2px solid orange;
+}
+
 /*----------------------------Header Ending-----------------------------*/
 
 
