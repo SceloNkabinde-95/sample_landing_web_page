@@ -62,12 +62,22 @@ body {
 	gap: 20px;
 }
 
+.header-logo{
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
 ul {
 	/* border: 2px solid red; */
 	/* this removes the dots on the list items*/
 	list-style-type: none;
 	margin: 0;
 	padding: 0; 
+}
+
+a {
+	text-decoration: none;
+	color: #F9FAF8; 
 }
 
 .summary-header {
