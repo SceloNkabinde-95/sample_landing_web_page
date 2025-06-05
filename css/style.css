@@ -43,13 +43,16 @@ body {
 /*--------------------------------Header-----------------------------*/
 .header {
 	/* border: 2px solid yellow; */
+	flex-grow: 1;
+	height: 25%;
+
 	display: flex;
 	flex-direction: column;
 	background-color: #1F2937;
-	flex-grow: 1;
+	
 
 	box-sizing: border-box;
-	/* height: 25%; */
+	
  }
 
 .main-header{
@@ -84,10 +87,14 @@ a {
 }
 
 .summary-header {
-	/* border: 2px solid orange; */
+	border: 2px solid orange;
+	flex-grow: 1;
+	height: 100%; 
+
+
 	display: flex;
 	justify-content: center;
-	flex-grow: 1;
+	
 }
 
 .left-subheader {
@@ -146,9 +153,10 @@ a {
 .content {
 	/* border: 2px solid yellow; */
 	flex-grow: 3;
+	height: 70%;
 
 	box-sizing: border-box;
-	/* height: 70%; */
+	
 
  }
 
@@ -163,8 +171,10 @@ a {
 
 .footer {
  	/* border: 2px solid yellow; */
+	height: 5%;
+
 	box-sizing: border-box;
-	/* height: 5%; */
+	
  }
 
 /*--------------------------------Footer Ending------------------------*/
