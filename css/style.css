@@ -51,12 +51,13 @@ body {
 .main-header{
 	border: 2px solid orange;
 	display: flex;
-	justify-content: space-between;
 }
 
 .header-links {
 	border: 2px solid red;
 	margin-left: auto;
+
+	display: flex;
 }
 
 .summary-header {
