@@ -23,7 +23,7 @@ body {
  }
 
  #Main-Container {
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	height: 100%;
 	width: 90%;
 
@@ -175,7 +175,7 @@ button {
  /*--------------------------------Content-----------------------------*/
 
 .content {
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 	flex-grow: 3;
 	height: 70%;
 
@@ -194,11 +194,17 @@ button {
 /*--------------------------------Footer-----------------------------*/
 
 .footer {
- 	border: 2px solid yellow;
+ 	/* border: 2px solid yellow; */
 	height: 3%;
 
 	box-sizing: border-box;
-	
+
+	background-color: #1F2937;
+	color: #F9FAF8;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
  }
 
 /*--------------------------------Footer Ending------------------------*/
