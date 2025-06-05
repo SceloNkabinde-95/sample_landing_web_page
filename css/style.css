@@ -155,7 +155,7 @@ a {
 .content {
 	border: 2px solid yellow;
 	flex-grow: 3;
-	height: 68%;
+	height: 70%;
 
 	box-sizing: border-box;
 	
@@ -173,7 +173,7 @@ a {
 
 .footer {
  	border: 2px solid yellow;
-	height: 5%;
+	height: 3%;
 
 	box-sizing: border-box;
 	
