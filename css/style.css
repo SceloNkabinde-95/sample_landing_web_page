@@ -47,6 +47,9 @@ body {
 	flex-direction: column;
 	background-color: #1F2937;
 	flex-grow: 1;
+
+	box-sizing: border-box;
+	height: 25%;
  }
 
 .main-header{
@@ -144,6 +147,9 @@ a {
 	border: 2px solid yellow;
 	flex-grow: 3;
 
+	box-sizing: border-box;
+	height: 70%;
+
  }
 
 /*-----------------------------Content Ending-----------------------------*/
@@ -157,7 +163,8 @@ a {
 
 .footer {
  	border: 2px solid yellow;
-
+	box-sizing: border-box;
+	height: 5%;
  }
 
 /*--------------------------------Footer Ending------------------------*/
