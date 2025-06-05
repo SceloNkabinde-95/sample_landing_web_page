@@ -45,7 +45,7 @@ body {
 	border: 2px solid yellow;
 	display: flex;
 	flex-direction: column;
-	/* background-color: #1F2937; */
+	background-color: #1F2937;
 	flex-grow: 1;
  }
 
