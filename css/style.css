@@ -73,7 +73,7 @@ ul {
 .summary-header {
 	border: 2px solid orange;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-grow: 1;
 }
 
