@@ -60,6 +60,14 @@ body {
 	display: flex;
 }
 
+ul {
+	/* border: 2px solid red; */
+	/* this removes the dots on the list items*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+
 .summary-header {
 	border: 2px solid orange;
 }
