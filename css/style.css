@@ -57,7 +57,7 @@ body {
 
 .main-header{
 	/* border: 2px solid orange; */
-	height: 15%;
+	height: 12%;
 	flex-grow: 1;
 	display: flex;
 }
@@ -135,12 +135,12 @@ a {
 	padding: 10px;
 }
 
-/* .right-content {
+.right-content {
 	box-sizing: border-box;
 	background-color: aqua;
-	width: 90%;
-	height: 90%;
-} */
+	width: 95%;
+	height: 100%;
+}
 
 /*----------------------------Header Ending-----------------------------*/
 
@@ -153,7 +153,7 @@ a {
  /*--------------------------------Content-----------------------------*/
 
 .content {
-	/* border: 2px solid yellow; */
+	border: 2px solid yellow;
 	flex-grow: 3;
 	height: 68%;
 
@@ -172,8 +172,8 @@ a {
 /*--------------------------------Footer-----------------------------*/
 
 .footer {
- 	/* border: 2px solid yellow; */
-	height: 2%;
+ 	border: 2px solid yellow;
+	height: 5%;
 
 	box-sizing: border-box;
 	
