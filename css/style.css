@@ -126,7 +126,7 @@ a {
 
 .left-content p {
 	font-size: 18px;
-	color: #E5E7EB
+	color: #E5E7EB;
 }
 
 button {
@@ -149,9 +149,14 @@ button {
 
 .right-content {
 	box-sizing: border-box;
-	background-color: aqua;
+	background-color: grey;
+	color: #F9FAF8;
 	width: 95%;
 	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /*----------------------------Header Ending-----------------------------*/
