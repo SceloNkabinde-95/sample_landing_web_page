@@ -225,6 +225,9 @@ button {
 
 .empty-box {
 	border: 2px solid black;
+	height: 95%;
+	width: 100%;
+	flex-grow: 1;
 }
 
 .card p {
