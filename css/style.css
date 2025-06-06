@@ -190,6 +190,7 @@ button {
 .random-info {
 	/* border: 2px solid orange; */
 	height: 33%;
+	
 	flex-grow: 1;
 
 	display: flex;
