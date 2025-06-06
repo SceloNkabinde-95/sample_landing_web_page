@@ -222,6 +222,9 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+
+	box-sizing: border-box;
+	padding: 0 20px;
  }
 
 .empty-box {
