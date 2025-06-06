@@ -292,12 +292,13 @@ button {
 
 	display: flex;
 	justify-content: center;
+	align-items: center;
 
  }
 
  .action-container {
 	border: 2px solid black;
-	height: 100%;
+	height: 50%;
 	width: 70%;
  }
 /*-----------------------------Content Ending-----------------------------*/
