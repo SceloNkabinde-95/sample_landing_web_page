@@ -298,6 +298,8 @@ button {
 
  .action-container {
 	/* border: 2px solid black; */
+	border-radius: 2%;
+
 	height: 50%;
 	width: 70%;
 
