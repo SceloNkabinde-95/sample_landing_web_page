@@ -210,8 +210,9 @@ button {
 .info-cards {
 	border: 2px solid green;
 	align-self: stretch;
-	/* margin-top: auto; */
-	/* display: flex; */
+	flex-grow: 1;
+	
+	display: flex;
  }
 
 .quote {
