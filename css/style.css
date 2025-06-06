@@ -302,6 +302,7 @@ button {
 	width: 70%;
 
 	display: flex;
+	justify-content: center;
  }
 
  .action-content { 
