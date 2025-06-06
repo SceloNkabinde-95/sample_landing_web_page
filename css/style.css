@@ -265,6 +265,17 @@ button {
 	align-items: center;
  }
 
+.quote-content em {
+	border: 2px solid black;
+}
+
+.quote-content strong {
+	border: 2px solid black;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+
 .action-call {
  	border: 2px solid orange;
 	height: 33%;
