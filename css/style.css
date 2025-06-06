@@ -180,6 +180,9 @@ button {
 	height: 70%;
 
 	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: column;
 	
 
  }
