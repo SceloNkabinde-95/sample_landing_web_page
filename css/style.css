@@ -196,6 +196,22 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
+ }
+
+ .info-title {
+	border: 2px solid green;
+	align-self: stretch;
+
+	/* display: flex;
+	justify-content: center; */
+ }
+
+.info-cards {
+	border: 2px solid green;
+	align-self: stretch;
+	/* margin-top: auto; */
+	/* display: flex; */
  }
 
 .quote {
