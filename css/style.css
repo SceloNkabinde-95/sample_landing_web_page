@@ -246,7 +246,7 @@ button {
 }
 
 .quote {
- 	border: 2px solid orange;
+ 	/* border: 2px solid orange; */
 	height: 33%;
 	flex-grow: 1;
 
@@ -257,7 +257,7 @@ button {
  }
 
 .quote-content {
-	border: 2px solid yellow;
+	/* border: 2px solid yellow; */
 	height: 100%;
 	width: 50%;
 
@@ -268,14 +268,14 @@ button {
  }
 
 .quote-content em {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 
 	font-size: 36px;
 	color: #1F2937;
 }
 
 .quote-content strong {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	width: 100%;
 	display: flex;
 	justify-content: end;
