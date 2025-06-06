@@ -188,8 +188,9 @@ button {
  }
 
 .random-info {
-	/* border: 2px solid orange; */
+	border: 2px solid orange;
 	height: 33%;
+	padding: 0 25%;
 	
 	flex-grow: 1;
 
