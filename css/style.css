@@ -279,6 +279,8 @@ button {
 	width: 100%;
 	display: flex;
 	justify-content: end;
+
+	color: #1F2937;
 }
 
 .action-call {
