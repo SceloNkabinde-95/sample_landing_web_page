@@ -252,12 +252,14 @@ button {
 
 	display: flex;
 	justify-content: center;
+
+	background-color: #E5E7EB;
  }
 
- .quote-content {
+.quote-content {
 	border: 2px solid yellow;
 	height: 100%;
-	width: 30%;
+	width: 50%;
 
 	display: flex;
 	flex-direction: column;
@@ -267,6 +269,9 @@ button {
 
 .quote-content em {
 	border: 2px solid black;
+
+	font-size: 36px;
+	color: #1F2937;
 }
 
 .quote-content strong {
