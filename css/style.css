@@ -203,8 +203,8 @@ button {
 	border: 2px solid green;
 	align-self: stretch;
 
-	/* display: flex;
-	justify-content: center; */
+	display: flex;
+	justify-content: center;
  }
 
 .info-cards {
