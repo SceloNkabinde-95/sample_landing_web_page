@@ -250,9 +250,15 @@ button {
 	height: 33%;
 	flex-grow: 1;
 
+	display: flex;
+	justify-content: center;
  }
 
  .quote-content {
+	border: 2px solid yellow;
+	height: 100%;
+	width: 30%;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
