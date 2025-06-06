@@ -303,6 +303,18 @@ button {
 
 	display: flex;
  }
+
+ .action-content { 
+	border: 2px solid burlywood;
+
+	box-sizing: border-box;
+	padding: 18px 0;
+ }
+
+ .action-button {
+	border: 2px solid burlywood;
+ }
+
 /*-----------------------------Content Ending-----------------------------*/
 
 
