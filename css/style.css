@@ -202,6 +202,12 @@ button {
 	flex-grow: 1;
 	width: 100%;
 
+	display: flex;
+
+}
+
+.card {
+	border: 2px solid yellow;
 }
 
 
