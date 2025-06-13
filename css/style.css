@@ -373,8 +373,37 @@ button {
 .footer {
 	border: 2px solid yellow;
 
-	grid-column: content;
-	grid-row: 6/7;
+	grid-column: main;
+
+	display: grid;
+	grid-template-columns:
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
+
+	background-color: #1F2937;
+	color: #F9FAF8;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+/* .action-wrapper {
+
+	border: 2px solid orange;
+
+	grid-column: breakout;
+	grid-row: 2/3;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	box-sizing: border-box;
+	padding: 50px;
+
+	background-color: #3882F6;
+	color: #F9FAF8;
+
+} */
 
 /*--------------------------------Footer Ending-----------------------------*/
