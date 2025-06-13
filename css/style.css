@@ -5,6 +5,10 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Roboto, sans-serif;
+
+	display: grid;
+	grid-template-columns: 
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
 }
 
 /*--------------------------Main Containers Endig---------------------------*/
