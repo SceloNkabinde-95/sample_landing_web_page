@@ -220,6 +220,12 @@ button {
 	flex-grow: 1;
 }
 
+.card p {
+	/* border: 2px solid purple; */
+	margin-top: auto;
+	color: #1F2937;
+}
+
 
 /*--------------------------------Info Ending-----------------------------*/
 
