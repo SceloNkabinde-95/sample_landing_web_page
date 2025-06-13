@@ -101,8 +101,18 @@ a {
 	grid-row: 1/3;
 
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 
+}
+
+.left-hero {
+	border: 2px solid red;
+	width: 50%;
+}
+
+.right-hero {
+	border: 2px solid red;
+	width: 50%;
 }
 
 /*--------------------------------Hero Ending-----------------------------*/
