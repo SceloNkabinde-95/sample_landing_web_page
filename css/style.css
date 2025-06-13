@@ -296,8 +296,20 @@ button {
 .action-section {
 	border: 2px solid yellow;
 
+	grid-column: main;
+
+	display: grid;
+	grid-template-columns:
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
+	
+}
+
+.action-wrapper {
+
+	border: 2px solid orange;
+
 	grid-column: breakout;
-	grid-row: 5/6;
+
 }
 
 /*--------------------------------Action Ending-----------------------------*/
