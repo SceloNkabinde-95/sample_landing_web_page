@@ -156,10 +156,28 @@ button {
 .info-section {
 	border: 2px solid yellow;
 
-	grid-column: content;
-	grid-row: 3/4;
+	grid-column: main;
+
+	display: grid;
+	grid-template-columns:
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
 
 }
+
+
+.info-wrapper {
+
+	border: 2px solid orange;
+
+	grid-column: content;
+	/* grid-row: 1/3; */
+
+	/* display: flex; */
+	/* gap: 100px; */
+	/* justify-content: center; */
+
+}
+
 
 /*--------------------------------Info Ending-----------------------------*/
 
