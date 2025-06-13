@@ -130,6 +130,17 @@ button {
 	color: #F9FAF8;
 }
 
+.right-content {
+	box-sizing: border-box;
+	background-color: grey;
+	color: #F9FAF8;
+	/* width: 95%; */
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /* 
 .right-hero {
 	border: 2px solid red;
