@@ -310,6 +310,17 @@ button {
 
 	grid-column: breakout;
 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.action-card {
+	border: 2px solid brown;
+
+	height: 50%;
+	width: 100%;
+	
 }
 
 /*--------------------------------Action Ending-----------------------------*/
