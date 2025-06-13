@@ -24,6 +24,9 @@ body {
 .header {
 	border: 2px solid yellow;
 
+	grid-column: breakout;
+	grid-row: 1/2;
+
 }
 
 /*--------------------------------Header Ending-----------------------------*/
@@ -34,6 +37,9 @@ body {
 /*--------------------------------Hero-----------------------------*/
 .hero-section {
 	border: 2px solid yellow;
+
+	grid-column: breakout;
+	grid-row: 2/3;
 
 }
 
@@ -46,6 +52,9 @@ body {
 .info-section {
 	border: 2px solid yellow;
 
+	grid-column: content;
+	grid-row: 3/4;
+
 }
 
 /*--------------------------------Info Ending-----------------------------*/
@@ -56,6 +65,9 @@ body {
 /*--------------------------------Quote-----------------------------*/
 .quote-section {
 	border: 2px solid yellow;
+
+	grid-column: content;
+	grid-row: 4/5;
 
 }
 
@@ -68,6 +80,8 @@ body {
 .action-section {
 	border: 2px solid yellow;
 
+	grid-column: breakout;
+	grid-row: 5/6;
 }
 
 /*--------------------------------Action Ending-----------------------------*/
@@ -79,6 +93,8 @@ body {
 .footer {
 	border: 2px solid yellow;
 
+	grid-column: content;
+	grid-row: 6/7;
 }
 
 /*--------------------------------Footer Ending-----------------------------*/
