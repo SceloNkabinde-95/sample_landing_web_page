@@ -24,9 +24,53 @@ body {
 .header {
 	border: 2px solid yellow;
 
+
+	grid-column: main;
+	background-color: #1F2937;
+
+	display: grid;
+	grid-template-columns:
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
+
+}
+
+.header-wrapper {
+
 	grid-column: breakout;
 	grid-row: 1/2;
+	
+	display: flex;
 
+}
+.header-links {
+	border: 2px solid red;
+	margin-left: auto;
+
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	/* padding-right: 5px; */
+}
+
+.header-logo {
+	font-size: 24px;
+	color: #F9FAF8;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	/* border: 2px solid red; */
+	/* this removes the dots on the list items*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #F9FAF8;
 }
 
 /*--------------------------------Header Ending-----------------------------*/
