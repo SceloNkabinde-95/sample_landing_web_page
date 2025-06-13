@@ -301,6 +301,8 @@ button {
 	display: grid;
 	grid-template-columns:
 	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
+
+	grid-template-rows: 1fr 3fr 1fr;
 	
 }
 
@@ -309,19 +311,58 @@ button {
 	border: 2px solid orange;
 
 	grid-column: breakout;
+	grid-row: 2/3;
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+
+	box-sizing: border-box;
+	padding: 50px;
+
+	background-color: #3882F6;
+	color: #F9FAF8;
+
 }
 
-.action-card {
-	border: 2px solid brown;
+/* .action-card {
+	border: 2px solid brown; */
+
+	/* grid-column: breakout;
+	grid-row: 2/3;
 
 	height: 50%;
 	width: 100%;
-	
+
+	display: flex;
+	justify-content: center; */
+	/* display: flex; */
+	/* justify-content: space-between; */
+
+/* } */
+
+.action-content {
+	border: 2px solid burlywood;
+	flex-grow: 1;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 0 50px; */
 }
+
+.action-button {
+	border: 2px solid burlywood;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+
+}
+
+.action-button button {
+	border: 2px solid #F9FAF8;
+}
+
 
 /*--------------------------------Action Ending-----------------------------*/
 
