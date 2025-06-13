@@ -185,6 +185,14 @@ button {
 	border: 2px solid green;
 	/* height: 100%;*/
 	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
 }
 
 .info-cards {
@@ -192,6 +200,7 @@ button {
 	/* height: 100%;
 	width: 100%; */
 	flex-grow: 1;
+	width: 100%;
 
 }
 
