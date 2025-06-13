@@ -266,6 +266,24 @@ button {
 	justify-content: center;
 	align-items: center;
 
+	padding: 0 20px;
+
+}
+
+.quote-wrapper em {
+	/* border: 2px solid black; */
+
+	font-size: 36px;
+	color: #1F2937;
+}
+
+.quote-wrapper strong {
+	/* border: 2px solid black; */
+	width: 100%;
+	display: flex;
+	justify-content: end;
+
+	color: #1F2937;
 }
 
 /*--------------------------------Quote Ending-----------------------------*/
