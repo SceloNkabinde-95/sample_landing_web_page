@@ -42,6 +42,7 @@ body {
 	display: flex;
 
 }
+
 .header-links {
 	border: 2px solid red;
 	margin-left: auto;
@@ -56,6 +57,7 @@ body {
 .header-logo {
 	font-size: 24px;
 	color: #F9FAF8;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -82,8 +84,21 @@ a {
 .hero-section {
 	border: 2px solid yellow;
 
+	grid-column: main;
+	background-color: #1F2937;
+	
+	display: grid;
+	grid-template-columns:
+	[main-start] 2fr [breakout-start] 1fr [content-start] 20fr [content-end] 1fr [breakout-end] 2fr [main-end];
+
+}
+
+.hero-wrapper {
+
 	grid-column: breakout;
 	grid-row: 2/3;
+
+	display: flex;
 
 }
 
